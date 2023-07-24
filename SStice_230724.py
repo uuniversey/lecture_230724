@@ -145,7 +145,96 @@
 
 
 
-num = [5,7]
-box = []
-box.extend(num)
-print(box)
+# 별 찍기 - 1
+
+# case = int(input())
+
+# for i in range(case):
+#     print ('*' * (i+1))
+
+
+
+# 별 찍기 -2
+
+# case = int(input())
+
+# for i in range(case):
+#     print (' ' * (case-1-i) + '*' * (i+1))
+
+
+
+# 별 찍기 -3
+
+# case = int(input())
+
+# for i in range(case):
+#     print('*' * (case - i))
+
+
+
+# 별 찍기 -4
+
+# case = int(input())
+
+# for i in range(case):
+#     print (' ' * i + '*' * (case-i))
+
+
+
+# 별 찍기 -5
+
+# case = int(input())
+
+# for i in range(case):
+#     print(' ' * (case - (i+1)) + '*' * (2*i+1)  + ' ')
+
+
+
+# 별 찍기 -6
+
+# case = int(input())
+
+# for i in range(case):
+#     print(' ' * i + '*' * (2*(case-i)-1)  + ' ')
+
+
+
+# 별 찍기 -7
+
+
+# case = int(input())
+
+# for i in range(case):
+#     print(' ' * (case - (i+1)) + '*' * (2*i+1)  + ' ')
+
+# for i in range(case-1):
+#     print(' ' * (i+1) + '*' * (2*(case-1-i)-1)  + ' ')
+
+
+
+# 별 찍기 -8
+
+
+# case = int(input())
+
+# for i in range(case):
+#     print('*' * (i+1) + ' ' * ((2*case) - 2*(i+1)) + '*' * (i+1))
+
+# for i in range(case):
+#     print('*' * (case-i-1) + ' ' * (2*(i+1)) + '*' * (case-i-1)) 
+
+
+
+# 별 찍기 -9
+
+
+case = int(input())
+
+for i in range(case):
+    print(' ' * i + '*' * (2*case-(2*(i))-1) + ' ' * i)
+
+for i in range(case-1):
+    print(' ' * (case-2-i) + '*' * (2*i + 3) + ' ' * (case-2-i))
+
+
+
